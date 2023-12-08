@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+.bargraph__heading__logo {
+  @apply font-barlow sm:font-bold font-normal sm:text-2xl text-xl sm:leading-[29px] leading-[20px] italic;
+}
+.bargraph__upper-paragraph {
+  @apply font-barlow font-normal text-base leading-[21px];
+}
+.select__option-b-p {
+  @apply border border-[#969C9C]  py-2 px-3;
+}
+@tailwind utilities;
